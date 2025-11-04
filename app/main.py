@@ -52,3 +52,6 @@ def add_user():
         return redirect(url_for("users"))
 
     return "wrong call"
+
+if __name__ == '__main__':
+    app.run(host='0.0.0.0', port=10000)
